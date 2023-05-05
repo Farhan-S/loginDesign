@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@1,300&family=Sacramento&family=Source+Serif+4:opsz@8..60&family=Ubuntu&display=swap"
+        rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        
+        <h2 class="logo">Logo</h2>
+    
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+            <button class="popup-btn ">Login</button>
+        </nav>
+        <span class="menu-btn "><ion-icon name="menu"></ion-icon></span>
+    </header>
+    <nav class="menu">
+        <span class="icon-close cls-btn"><ion-icon name="close-outline"></ion-icon></span>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+        <button class="popup-menu-login popup-btn">Login</button>
+    </nav>
+
+
+    <div class="wraper">
+        <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a id="f-p" href="#">Forgot Password ?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account ?
+                        <a href="#" class="register-link">Register</a>
+                    </p>
+
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Usernamne</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Agree to the terms and condition</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account ?
+                        <a href="#" class="login-link">Login</a>
+                    </p>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
